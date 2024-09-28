@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>等比数列求和公式推导</title>
+    <link href="/2024/09/28/%E7%AD%89%E6%AF%94%E6%95%B0%E5%88%97/"/>
+    <url>/2024/09/28/%E7%AD%89%E6%AF%94%E6%95%B0%E5%88%97/</url>
+    
+    <content type="html"><![CDATA[<p>求和公式推导 <span class="math display">\[a_n=a_1*q^{n-1}\]</span><span class="math display">\[S_n=a_1+a_2+a_3+\cdots+a_n\]</span> <spanclass="math display">\[S_n=a_1+a_1q+a_1q^2+\cdots+a_1q^{n-1}\]</span><spanclass="math display">\[qS_n=a_1q+a_1q^2+a_1q^3+\cdots+a_1q^{n}\]</span><span class="math display">\[qS_n-S_n=a_1q^n-a_1\]</span> <spanclass="math display">\[(q-1)S_n=a_1(q^n-1)\]</span> <spanclass="math display">\[S_n=a_1*\frac{q^n-1}{q-1}(q\neq1)\]</span> 例题:<span class="math display">\[S_1=1\]</span> <spanclass="math display">\[S_n=2S_{n-1}+1\]</span> <spanclass="math display">\[S_n=?\]</span> 答案: <spanclass="math display">\[S_n=2S_{n-1}+1\]</span> <spanclass="math display">\[S_n=2(S{n-1}+1)-1\]</span> <spanclass="math display">\[S_n+1=2(S_{n-1}+1)\]</span>构造等比数列且公比为2数列 <spanclass="math display">\[Z_n=S_n+1\]</span> <spanclass="math display">\[Z_1=2\]</span> <spanclass="math display">\[Z_n=2^n\]</span> <spanclass="math display">\[S_n=2^n-1\]</span></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>math</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>韦达定理证明</title>
     <link href="/2024/09/09/%E9%9F%A6%E8%BE%BE%E5%AE%9A%E7%90%86/"/>
     <url>/2024/09/09/%E9%9F%A6%E8%BE%BE%E5%AE%9A%E7%90%86/</url>
